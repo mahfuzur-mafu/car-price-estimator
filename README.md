@@ -1,6 +1,6 @@
 # Car Price Range Estimation App
 
-This project is a web application designed to estimate a car price range suitable for customers based on their financial information. By inputting details such as age, salary, and net worth, the app calculates and advises a car price range tailored to the customer.
+This project is designed to estimate a car price range suitable for customers based on their financial information. By inputting details such as age, salary, and net worth, the app calculates and advises a car price range tailored to the customer.
 
 ## Project Overview
 
