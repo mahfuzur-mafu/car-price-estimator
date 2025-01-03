@@ -23,15 +23,37 @@ The goal of this project is to provide a seamless interface for users to input t
 - Calculated descriptive statistics for numerical columns using `describe()`.
 - Analyzed the distribution of key features, including `age`, `annual salary`, `credit card debt`, and `net worth`, using histograms and scatter plots.
 - Visualized relationships between features and the target variable (`car purchase amount`) using scatter plots.
-  ```python
-  import matplotlib.pyplot as plt
-  plt.scatter(df['annual_salary'], df['car_purchase_amount'])
-  plt.xlabel('Annual Salary')
-  plt.ylabel('Car Purchase Amount')
-  plt.show()
-  ```
+
 - Calculated correlations between numerical features and the target variable using `corr()`.
 - Explored potential categorical features like gender using `groupby()` and visualizations.
+
+### 3. Data Visualization
+
+Scatter plots: Visualized the relationships between numerical features (age, salary, net worth, credit and debt) and car purchase amount.
+
+![image](https://github.com/user-attachments/assets/d2c71046-ca5c-457b-9534-fb15f2847fb1)
+
+![image](https://github.com/user-attachments/assets/4ae6219a-01c6-4a2b-8c48-93b9d7a733ec)
+
+![image](https://github.com/user-attachments/assets/e1dc71ba-7683-4d1d-a836-df163aec94cd)
+
+![image](https://github.com/user-attachments/assets/aeeb7434-132a-4c05-90ab-b12515686cb0)
+
+
+
+
+Histograms: Showed the distribution of age in the dataset.
+
+
+![image](https://github.com/user-attachments/assets/19f1048d-6e99-4031-aa35-b30f981396ba)
+
+
+
+Bar plots: Compared mean net worth and Mean annual salary by gender, and visualized mean/maximum car purchase amount by age range.
+
+![image](https://github.com/user-attachments/assets/974fa483-73ad-4040-83ba-13d08d32d0e7)
+
+
 
 ### 3. Feature Engineering
 - Created new features to potentially improve model performance:
@@ -136,7 +158,8 @@ The goal of this project is to provide a seamless interface for users to input t
 - The application provides quick and accurate car price range estimates based on user inputs.
 - Screenshot of the app interface:
 
-  ![App Screenshot](image.png)
+ <img width="708" alt="image" src="https://github.com/user-attachments/assets/f42e1efe-173e-484e-8e35-8e964c114bf7" />
+
 
 ## Future Work
 
