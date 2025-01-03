@@ -191,7 +191,4 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 
-- **Your Name**
-
-Feel free to customize this README with your name and GitHub repository link!
 
